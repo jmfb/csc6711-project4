@@ -1,0 +1,5 @@
+.git/
+msoe/
+.ipynb_checkpoints/
+__pycache__/
+datasets/
