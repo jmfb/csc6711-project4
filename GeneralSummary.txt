@@ -1,0 +1,246 @@
+
+
+
+
+
+
+
+AnalyzeDataset('MovieLens', 'movielens_25m')
+AnalyzeDataset('Netflix', 'netflix_prize')
+AnalyzeDataset('Yahoo! Music', 'yahoo_r2_songs.subsampled')
+AnalyzeDataset('BoardGameGeek', 'boardgamegeek')
+Analyzing dataset for MovieLens
+Initial dataset: (24890583, 3)
+Original Distinct Users: 162541
+Filtering out users with only one rating: (24890583, 4)
+Distinct Item Count: 24,330
+Train (18706943, 5), Test (6183640, 5)
+Distinct Training Users: 121,905
+Distinct Testing Users: 40,636
+Remaining Distinct Users: 162541
+Seen (4637730, 6), Unseen (1545910, 6)
+
+Testing neighborhood size k=5
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 1155346 of 1545910 (390564 NaN)
+Predicted Distinct Users: 40010
+k=5, R^2 = 0.1495154188384571
+
+Testing neighborhood size k=10
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 1280716 of 1545910 (265194 NaN)
+Predicted Distinct Users: 40368
+k=10, R^2 = 0.1710952844882682
+
+Testing neighborhood size k=25
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 1393835 of 1545910 (152075 NaN)
+Predicted Distinct Users: 40559
+k=25, R^2 = 0.19837371652315747
+
+Testing neighborhood size k=50
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 1449293 of 1545910 (96617 NaN)
+Predicted Distinct Users: 40604
+k=50, R^2 = 0.21426213770362265
+
+Testing neighborhood size k=100
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 1487363 of 1545910 (58547 NaN)
+Predicted Distinct Users: 40621
+k=100, R^2 = 0.22734575747851915
+
+Testing neighborhood size k=150
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 1503219 of 1545910 (42691 NaN)
+Predicted Distinct Users: 40627
+k=150, R^2 = 0.23309274287158122
+
+Testing neighborhood size k=200
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 1512061 of 1545910 (33849 NaN)
+Predicted Distinct Users: 40631
+k=200, R^2 = 0.23650984752459725
+
+Testing neighborhood size k=250
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 1517872 of 1545910 (28038 NaN)
+Predicted Distinct Users: 40632
+k=250, R^2 = 0.23873341010063248
+
+Analyzing dataset for Netflix
+Initial dataset: (51031355, 3)
+Original Distinct Users: 478018
+Filtering out users with only one rating: (51027153, 4)
+Distinct Item Count: 9,210
+Train (38292233, 5), Test (12734920, 5)
+Distinct Training Users: 355,362
+Distinct Testing Users: 118,454
+Remaining Distinct Users: 473816
+Seen (9551190, 6), Unseen (3183730, 6)
+
+Testing neighborhood size k=5
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 2270363 of 3183730 (913367 NaN)
+Predicted Distinct Users: 91162
+k=5, R^2 = 0.11759571549179094
+
+Testing neighborhood size k=10
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 2534136 of 3183730 (649594 NaN)
+Predicted Distinct Users: 98781
+k=10, R^2 = 0.13974396633147587
+
+Testing neighborhood size k=25
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 2779223 of 3183730 (404507 NaN)
+Predicted Distinct Users: 106774
+k=25, R^2 = 0.16642359237460422
+
+Testing neighborhood size k=50
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 2906195 of 3183730 (277535 NaN)
+Predicted Distinct Users: 111089
+k=50, R^2 = 0.18337124002437874
+
+Testing neighborhood size k=100
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 2997931 of 3183730 (185799 NaN)
+Predicted Distinct Users: 114043
+k=100, R^2 = 0.19736097082472437
+
+Testing neighborhood size k=150
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 3038880 of 3183730 (144850 NaN)
+Predicted Distinct Users: 115161
+k=150, R^2 = 0.20445957986321692
+
+Testing neighborhood size k=200
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 3063482 of 3183730 (120248 NaN)
+Predicted Distinct Users: 115831
+k=200, R^2 = 0.20846818688505384
+
+Testing neighborhood size k=250
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 3080054 of 3183730 (103676 NaN)
+Predicted Distinct Users: 116300
+k=250, R^2 = 0.2113884339909797
+
+Analyzing dataset for Yahoo! Music
+Initial dataset: (6937275, 3)
+Original Distinct Users: 1255262
+Filtering out users with only one rating: (6532945, 4)
+Distinct Item Count: 1,368
+Train (4901087, 5), Test (1631858, 5)
+Distinct Training Users: 638,199
+Distinct Testing Users: 212,733
+Remaining Distinct Users: 850932
+Seen (1223893, 6), Unseen (407965, 6)
+
+Testing neighborhood size k=5
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 35883 of 407965 (372082 NaN)
+Predicted Distinct Users: 18037
+k=5, R^2 = 0.028979272242950195
+
+Testing neighborhood size k=10
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 56782 of 407965 (351183 NaN)
+Predicted Distinct Users: 29115
+k=10, R^2 = 0.04257732343516106
+
+Testing neighborhood size k=25
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 99964 of 407965 (308001 NaN)
+Predicted Distinct Users: 52059
+k=25, R^2 = 0.0512660731615595
+
+Testing neighborhood size k=50
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 145880 of 407965 (262085 NaN)
+Predicted Distinct Users: 75147
+k=50, R^2 = 0.054301957528822775
+
+Testing neighborhood size k=100
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 200853 of 407965 (207112 NaN)
+Predicted Distinct Users: 100569
+k=100, R^2 = 0.05990893994079656
+
+Testing neighborhood size k=150
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 234962 of 407965 (173003 NaN)
+Predicted Distinct Users: 114539
+k=150, R^2 = 0.062496244533016033
+
+Testing neighborhood size k=200
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 258924 of 407965 (149041 NaN)
+Predicted Distinct Users: 123529
+k=200, R^2 = 0.06454884170323225
+
+Testing neighborhood size k=250
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 277379 of 407965 (130586 NaN)
+Predicted Distinct Users: 130021
+k=250, R^2 = 0.06726799384229233
+
+Analyzing dataset for BoardGameGeek
+Initial dataset: (18942215, 3)
+Original Distinct Users: 411374
+Filtering out users with only one rating: (18862856, 4)
+Distinct Item Count: 21,925
+Train (14154899, 5), Test (4707957, 5)
+Distinct Training Users: 249,058
+Distinct Testing Users: 83,020
+Remaining Distinct Users: 332078
+Seen (3530967, 6), Unseen (1176990, 6)
+
+Testing neighborhood size k=5
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 565733 of 1176990 (611257 NaN)
+Predicted Distinct Users: 35759
+k=5, R^2 = 0.158227417467555
+
+Testing neighborhood size k=10
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 672329 of 1176990 (504661 NaN)
+Predicted Distinct Users: 41935
+k=10, R^2 = 0.17497151390104518
+
+Testing neighborhood size k=25
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 805611 of 1176990 (371379 NaN)
+Predicted Distinct Users: 51774
+k=25, R^2 = 0.19807156625791317
+
+Testing neighborhood size k=50
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 896931 of 1176990 (280059 NaN)
+Predicted Distinct Users: 59119
+k=50, R^2 = 0.2146718844030971
+
+Testing neighborhood size k=100
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 977073 of 1176990 (199917 NaN)
+Predicted Distinct Users: 64933
+k=100, R^2 = 0.2320113301081016
+
+Testing neighborhood size k=150
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 1016963 of 1176990 (160027 NaN)
+Predicted Distinct Users: 67383
+k=150, R^2 = 0.24097933373484215
+
+Testing neighborhood size k=200
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 1042090 of 1176990 (134900 NaN)
+Predicted Distinct Users: 68922
+k=200, R^2 = 0.2474863378397993
+
+Testing neighborhood size k=250
+Using cached result (clear /pred_cache folder to recompute)
+Done. Predicted 1059596 of 1176990 (117394 NaN)
+Predicted Distinct Users: 69876
+k=250, R^2 = 0.2523590534502523
